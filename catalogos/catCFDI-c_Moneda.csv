@@ -1,0 +1,183 @@
+Catálogo de moneda.                                                                       
+Fecha inicio de vigencia                 Fecha fin de vigencia                  Versión            Revisión         
+        1/1/2017                                                                  1.0                 0             
+                                                                                          
+        c_Moneda                              Descripción                      Decimales     Porcentaje variación   
+           AED           Dirham de EAU                                             2                 35%            
+           AFN           Afghani                                                   2                 35%            
+           ALL           Lek                                                       2                 35%            
+           AMD           Dram armenio                                              2                 35%            
+           ANG           Florín antillano neerlandés                               2                 35%            
+           AOA           Kwanza                                                    2                 35%            
+           ARS           Peso Argentino                                            2                 63%            
+           AUD           Dólar Australiano                                         2                 44%            
+           AWG           Aruba Florin                                              2                 35%            
+           AZN           Azerbaijanian Manat                                       2                 35%            
+           BAM           Convertibles marca                                        2                 35%            
+           BBD           Dólar de Barbados                                         2                 35%            
+           BDT           Taka                                                      2                 35%            
+           BGN           Lev búlgaro                                               2                 35%            
+           BHD           Dinar de Bahrein                                          3                 35%            
+           BIF           Burundi Franc                                             0                 35%            
+           BMD           Dólar de Bermudas                                         2                 35%            
+           BND           Dólar de Brunei                                           2                 35%            
+           BOB           Boliviano                                                 2                 35%            
+           BOV           Mvdol                                                     2                 35%            
+           BRL           Real brasileño                                            2                 51%            
+           BSD           Dólar de las Bahamas                                      2                 35%            
+           BTN           Ngultrum                                                  2                 35%            
+           BWP           Pula                                                      2                 35%            
+           BYR           Rublo bielorruso                                          0                 35%            
+           BZD           Dólar de Belice                                           2                 36%            
+           CAD           Dolar Canadiense                                          2                 31%            
+           CDF           Franco congoleño                                          2                 35%            
+           CHE           WIR Euro                                                  2                 35%            
+           CHF           Franco Suizo                                              2                 49%            
+           CHW           Franc WIR                                                 2                 35%            
+           CLF           Unidad de Fomento                                         4                 35%            
+           CLP           Peso chileno                                              0                 45%            
+           CNY           Yuan Renminbi                                             2                 28%            
+           COP           Peso Colombiano                                           2                 33%            
+           COU           Unidad de Valor real                                      2                 35%            
+           CRC           Colón costarricense                                       2                 31%            
+           CUC           Peso Convertible                                          2                 35%            
+           CUP           Peso Cubano                                               2                 36%            
+           CVE           Cabo Verde Escudo                                         2                 35%            
+           CZK           Corona checa                                              2                 42%            
+           DJF           Franco de Djibouti                                        0                 35%            
+           DKK           Corona danesa                                             2                 40%            
+           DOP           Peso Dominicano                                           2                 51%            
+           DZD           Dinar argelino                                            2                 30%            
+           EGP           Libra egipcia                                             2                 34%            
+           ERN           Nakfa                                                     2                 35%            
+           ETB           Birr etíope                                               2                 35%            
+           EUR           Euro                                                      2                 40%            
+           FJD           Dólar de Fiji                                             2                 35%            
+           FKP           Libra malvinense                                          2                 35%            
+           GBP           Libra Esterlina                                           2                 29%            
+           GEL           Lari                                                      2                 35%            
+           GHS           Cedi de Ghana                                             2                 35%            
+           GIP           Libra de Gibraltar                                        2                 35%            
+           GMD           Dalasi                                                    2                 35%            
+           GNF           Franco guineano                                           0                 35%            
+           GTQ           Quetzal                                                   2                 36%            
+           GYD           Dólar guyanés                                             2                 35%            
+           HKD           Dolar De Hong Kong                                        2                 35%            
+           HNL           Lempira                                                   2                 28%            
+           HRK           Kuna                                                      2                 35%            
+           HTG           Gourde                                                    2                 35%            
+           HUF           Florín                                                    2                 38%            
+           IDR           Rupia                                                     2                 35%            
+           ILS           Nuevo Shekel Israelí                                      2                 33%            
+           INR           Rupia india                                               2                 30%            
+           IQD           Dinar iraquí                                              3                 59%            
+           IRR           Rial iraní                                                2                 35%            
+           ISK           Corona islandesa                                          0                 35%            
+           JMD           Dólar Jamaiquino                                          2                 28%            
+           JOD           Dinar jordano                                             3                 35%            
+           JPY           Yen                                                       0                 57%            
+           KES           Chelín keniano                                            2                 30%            
+           KGS           Som                                                       2                 35%            
+           KHR           Riel                                                      2                 35%            
+           KMF           Franco Comoro                                             0                 35%            
+           KPW           Corea del Norte ganó                                      2                 35%            
+           KRW           Won                                                       0                 35%            
+           KWD           Dinar kuwaití                                             3                 33%            
+           KYD           Dólar de las Islas Caimán                                 2                 35%            
+           KZT           Tenge                                                     2                 35%            
+           LAK           Kip                                                       2                 35%            
+           LBP           Libra libanesa                                            2                 35%            
+           LKR           Rupia de Sri Lanka                                        2                 35%            
+           LRD           Dólar liberiano                                           2                 35%            
+           LSL           Loti                                                      2                 35%            
+           LYD           Dinar libio                                               3                 35%            
+           MAD           Dirham marroquí                                           2                 36%            
+           MDL           Leu moldavo                                               2                 35%            
+           MGA           Ariary malgache                                           2                 35%            
+           MKD           Denar                                                     2                 35%            
+           MMK           Kyat                                                      2                 35%            
+           MNT           Tugrik                                                    2                 35%            
+           MOP           Pataca                                                    2                 35%            
+           MRO           Ouguiya                                                   2                 35%            
+           MUR           Rupia de Mauricio                                         2                 35%            
+           MVR           Rupia                                                     2                 35%            
+           MWK           Kwacha                                                    2                 35%            
+           MXN           Peso Mexicano                                             2                 35%            
+           MXV           México Unidad de Inversión (UDI)                          2                 35%            
+           MYR           Ringgit malayo                                            2                 27%            
+           MZN           Mozambique Metical                                        2                 35%            
+           NAD           Dólar de Namibia                                          2                 35%            
+           NGN           Naira                                                     2                 31%            
+           NIO           Córdoba Oro                                               2                 35%            
+           NOK           Corona noruega                                            2                 34%            
+           NPR           Rupia nepalí                                              2                 35%            
+           NZD           Dólar de Nueva Zelanda                                    2                 45%            
+           OMR           Rial omaní                                                3                 35%            
+           PAB           Balboa                                                    2                 35%            
+           PEN           Nuevo Sol                                                 2                 29%            
+           PGK           Kina                                                      2                 35%            
+           PHP           Peso filipino                                             2                 30%            
+           PKR           Rupia de Pakistán                                         2                 35%            
+           PLN           Zloty                                                     2                 39%            
+           PYG           Guaraní                                                   0                 37%            
+           QAR           Qatar Rial                                                2                 35%            
+           RON           Leu rumano                                                2                 36%            
+           RSD           Dinar serbio                                              2                 35%            
+           RUB           Rublo ruso                                                2                 35%            
+           RWF           Franco ruandés                                            0                 35%            
+           SAR           Riyal saudí                                               2                 35%            
+           SBD           Dólar de las Islas Salomón                                2                 35%            
+           SCR           Rupia de Seychelles                                       2                 35%            
+           SDG           Libra sudanesa                                            2                 35%            
+           SEK           Corona sueca                                              2                 38%            
+           SGD           Dolar De Singapur                                         2                 35%            
+           SHP           Libra de Santa Helena                                     2                 35%            
+           SLL           Leona                                                     2                 35%            
+           SOS           Chelín somalí                                             2                 35%            
+           SRD           Dólar de Suriname                                         2                 35%            
+           SSP           Libra sudanesa Sur                                        2                 35%            
+           STD           Dobra                                                     2                 35%            
+           SVC           Colon El Salvador                                         2                 35%            
+           SYP           Libra Siria                                               2                 35%            
+           SZL           Lilangeni                                                 2                 35%            
+           THB           Baht                                                      2                 37%            
+           TJS           Somoni                                                    2                 35%            
+           TMT           Turkmenistán nuevo manat                                  2                 35%            
+           TND           Dinar tunecino                                            3                 35%            
+           TOP           Pa'anga                                                   2                 35%            
+           TRY           Lira turca                                                2                 35%            
+           TTD           Dólar de Trinidad y Tobago                                2                 29%            
+           TWD           Nuevo dólar de Taiwán                                     2                 30%            
+           TZS           Shilling tanzano                                          2                 35%            
+           UAH           Hryvnia                                                   2                 51%            
+           UGX           Shilling de Uganda                                        0                 35%            
+           USD           Dolar americano                                           2                 35%            
+           USN           Dólar estadounidense (día siguiente)                      2                 35%            
+           UYI           Peso Uruguay en Unidades Indexadas (URUIURUI)             0                 35%            
+           UYU           Peso Uruguayo                                             2                 32%            
+           UZS           Uzbekistán Sum                                            2                 35%            
+           VEF           Bolívar                                                   2                 153%           
+           VND           Dong                                                      0                 30%            
+           VUV           Vatu                                                      0                 35%            
+           WST           Tala                                                      2                 35%            
+           XAF           Franco CFA BEAC                                           0                 35%            
+           XAG           Plata                                                     0                 35%            
+           XAU           Oro                                                       0                 35%            
+           XBA           Unidad de Mercados de Bonos Unidad Europea Composite      0                 35%            
+           XBB           Unidad Monetaria de Bonos de Mercados Unidad Europea      0                 35%            
+           XBC           Mercados de Bonos Unidad Europea unidad de cuenta a 9     0                 35%            
+           XBD           Mercados de Bonos Unidad Europea unidad de cuenta a 1     0                 35%            
+           XCD           Dólar del Caribe Oriental                                 2                 35%            
+           XDR           DEG (Derechos Especiales de Giro)                         0                 37%            
+           XOF           Franco CFA BCEAO                                          0                 35%            
+           XPD           Paladio                                                   0                 35%            
+           XPF           Franco CFP                                                0                 35%            
+           XPT           Platino                                                   0                 35%            
+           XSU           Sucre                                                     0                 35%            
+           XTS           Códigos reservados específicamente para propósitos de     0      
+           XUA           Unidad ADB de Cuenta                                      0                 35%            
+           XXX           Los códigos asignados para las transacciones en que i     0      
+           YER           Rial yemení                                               2                 35%            
+           ZAR           Rand                                                      2                 54%            
+           ZMW           Kwacha zambiano                                           2                 35%            
+           ZWL           Zimbabwe Dólar                                            2                 35%            

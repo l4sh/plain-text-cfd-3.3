@@ -1,0 +1,11 @@
+Catálogo de tipos de compr                                                                           
+Versión                                 Revisión                                                     
+           1.0                             2                                                         
+                                                                                                     
+   c_TipoDeComprobante                Descripción              Valor máximo               Fecha iniciFecha fin d
+            I             Ingreso                              100,000,000                 1/1/2017  
+            E             Egreso                               100,000,000                 1/1/2017  
+            T             Traslado                                  0                      1/1/2017  
+            N             Nómina                                    NS           NdS       1/1/2017  
+                                                                 400,000      2,000,000    1/1/2017  
+            P             Pago                                 100,000,000                 1/1/2017  

@@ -1,0 +1,991 @@
+Guía de llenado del CFDI global
+Versión 3.3. del CFDI
+
+Servicio de Administración Tributaria │ Av. Hidalgo, núm. 77, col. Guerrero, delegación Cuauhtémoc, Ciudad de México.,
+c. p. 06300 │ MarcaSAT: 627 22 728 desde la Ciudad de México │ documento disponible en www.sat.gob.mx
+
+1
+
+Contenido
+
+Introducción ........................................................................................................................................... 3
+I. Guía de llenado del CFDI global versión 3.3.............................................................................. 5
+Glosario .................................................................................................................................................19
+Apéndice 1 Notas Generales ..........................................................................................................20
+
+Servicio de Administración Tributaria │ Av. Hidalgo, núm. 77, col. Guerrero, delegación Cuauhtémoc, Ciudad de México.,
+c. p. 06300 │ MarcaSAT: 627 22 728 desde la Ciudad de México │ documento disponible en www.sat.gob.mx
+
+2
+
+Introducción
+Expedir comprobantes fiscales (CFDI) por los actos o actividades realizadas, por los
+ingresos que perciban o por las retenciones de contribuciones que efectúen los
+contribuyentes, es una obligación de los contribuyentes personas físicas o morales de
+conformidad con el artículo 29, parrafos primero y segundo, fracción IV y penúltimo
+párrafo del CFF y 39 del Reglamento del Código Fiscal de la Federación, en relación con
+la regla 2.7.1.24., y el Capítulo 2.7 De los Comprobantes Fiscales Digitales por Internet
+o Factura Electrónica de la Resolución Miscelánea Fiscal (RMF) vigente.
+El artículo 29-A del Código Fiscal de la Federación (CFF) en su fracción IV establece el
+requisito de incluir en el comprobante fiscal la clave en el RFC del receptor del mismo,
+dicha disposición aclara que cuando no se cuente con dicha clave en el RFC se señalará
+la clave genérica que establezca el SAT mediante reglas de carácter general, dicha clave
+esta publicada en la regla 2.7.1.26. de la RMF vigente.
+No obstante lo señalado y considerando que conforme a lo establecido en el artículo
+29, último párrafo del artículo del citado Código, el SAT mediante reglas de carácter
+general podrá establecer facilidades administrativas para que los contribuyentes
+emitan sus comprobantes fiscales por medios propios, a través de proveedores de
+servicios o con medios electrónicos que en dicha reglas determine, dicho organo
+desconcentrado ha otorgado en la regla 2.7.1.24. una facilidad para el caso de las
+operaciones en dónde no se cuenta con la clave de en el RFC del receptor, consistente
+en poder emitir a sus clientes que no solicitan un CFDI en estas operaciones que se
+celebradas con el público en general , un comprobante simple o
+simplificado que no puede ser utilizado para deducir o acreditar, estándo esto
+condicionado a tener que elaborar también un CFDI global en donde consten:
+ Los importes correspondientes a cada una de las operaciones realizadas con el
+público en general del periodo,
+ El número de folio o de operación de cada uno de los comprobantes de
+operaciones con el publico en general que se emitieron en el periódo.
+ Emitir este CFDI global incluyendo como clave en el RFC de su receptor la clave
+genérica en el RFC para CFDI global a que se refiere la regla 2.7.1.26.
+El CFDI global deberá expedirse a más tardar a las 72 horas siguientes al cierre de las
+operaciones que lo integran.
+El monto del IVA y del IEPS deberá estar desglosado en forma expresa y por separado
+en los CFDI globales.
+Servicio de Administración Tributaria │ Av. Hidalgo, núm. 77, col. Guerrero, delegación Cuauhtémoc, Ciudad de México.,
+c. p. 06300 │ MarcaSAT: 627 22 728 desde la Ciudad de México │ documento disponible en www.sat.gob.mx
+
+3
+
+Cuando los adquirentes de los bienes o receptores de los servicios no soliciten
+comprobantes de operaciones realizadas con el público en general, los contribuyentes
+no estarán obligados a entregárselos cuando el importe sea inferior a $100.00 (cien
+pesos 00/100 M.N.), no obstante deberán incluir dentro del CFDI global en donde
+consten las operaciones celebradas con el público en general.
+Los contribuyentes que tributen en el RIF, podrán elaborar el CFDI global de forma
+bimestral a través de Mis Cuentas, incluyendo únicamente el monto total de las
+operaciones del bimestre y el periodo correspondiente.
+El CFDI global en donde consten las operaciones celebradas con el público en general,
+deberá remitirse al SAT o al proveedor de certificación de CFDI, según sea el caso dentro
+de las 72 horas siguientes al cierre de las operaciones realizadas de manera diaria,
+semanal,mensual o bimestral.
+En operaciones en dónde a pesar de que se trate de las celebradas con el público en
+general, el pago se haga en parcialidades o de manera diferida, es decir no se pague al
+momento de realizar la operación, no aplica la facilidad contenida en la regla 2.7.1.24 y
+por tanto no se puede emitir un comprobante simplificado en lugar de un CFDI al cliente,
+y se deberá en su lugar observar lo dispuesto en las reglas 2.7.1.32 y 2.7.1.35.
+Los documentos técnicos, especifican la estructura, forma y sintaxis que deben
+contener los CFDI que expidan los contribuyentes (personas físicas y morales), lo cual
+permite que la información se introduzca de manera organizada en el comprobante.
+En este documento se describe cómo se debe realizar el llenado de los datos a registrar
+en el CFDI global en su versión 3.3 en el punto 2.
+En el caso de alguna duda o situación particular que no se encuentre resuelta en esta
+guía, el contribuyente debe remitirse a los siguientes documentos, mismos que se
+encuentran publicados en el portal del SAT.
+
+
+Documentación técnica del Anexo 20.
+http://www.sat.gob.mx/informacion_fiscal/factura_electronica/Paginas/An
+exo_20_version3.3.aspx
+
+
+
+Preguntas y respuestas de los comprobantes fiscales digitales por Internet.
+http://www.sat.gob.mx/informacion_fiscal/factura_electronica/Paginas/An
+exo_20_version3.3.aspx
+
+
+
+Casos de uso de los comprobantes fiscales digitales por Internet.
+
+Servicio de Administración Tributaria │ Av. Hidalgo, núm. 77, col. Guerrero, delegación Cuauhtémoc, Ciudad de México.,
+c. p. 06300 │ MarcaSAT: 627 22 728 desde la Ciudad de México │ documento disponible en www.sat.gob.mx
+
+4
+
+I. Guía de llenado del CFDI global versión 3.3
+Cuando se emita un CFDI, se debe hacer con las especificaciones señaladas en cada
+uno de los campos expresados en lenguaje no informático que se incluyen en esta
+sección.
+En el presente documento se hace referencia a la descripción de la información que
+debe contener el citado comprobante fiscal.
+Cuando en las siguientes descripciones se establezca el uso de un valor, éste se señala
+entre comillas, pero en el CFDI debe registrarse sin incluir las comillas, respetando
+mayúsculas, minúsculas, números, espacios y signos de puntuación.
+
+Nombre del
+nodo o
+atributo
+Nodo:
+Comprobante
+Version
+
+Descripción
+
+Formato estándar del Comprobante Fiscal Digital por Internet.
+.
+Este dato lo integra el sistema que utiliza el contribuyente para la
+emisión del comprobante fiscal.
+
+Serie
+
+Es el número de serie que utiliza el contribuyente para control
+interno de su información. Este campo acepta de 1 hasta 25
+caracteres alfanuméricos.
+
+Folio
+
+Es el folio de control interno que asigna el contribuyente al
+comprobante, puede conformarse desde 1 hasta 40 caracteres
+alfanuméricos.
+
+Fecha
+
+Es la fecha y hora de expedición del comprobante fiscal. Se expresa
+en la forma AAAA-MM-DDThh:mm:ss y debe corresponder con la
+hora local donde se expide el comprobante.
+Este dato lo integra el sistema que utiliza el contribuyente para la
+emisión del comprobante fiscal.
+Ejemplo:
+Fecha= 2017-01-27T11:49:48
+
+Servicio de Administración Tributaria │ Av. Hidalgo, núm. 77, col. Guerrero, delegación Cuauhtémoc, Ciudad de México.,
+c. p. 06300 │ MarcaSAT: 627 22 728 desde la Ciudad de México │ documento disponible en www.sat.gob.mx
+
+5
+
+Sello
+
+Es el sello digital del comprobante fiscal generado con el
+certificado de sello digital del contribuyente emisor del
+comprobante; éste funge como la firma del emisor del
+comprobante y lo integra el sistema que utiliza el
+contribuyente para la emisión del comprobante.
+
+FormaPago
+
+Se debe registrar la clave de forma de pago con la que se liquidó el
+comprobante simplificado de mayor monto de entre los contenidos
+en el CFDI global, en caso de haber dos o más comprobantes con el
+mismo monto pero distintas formas de pago, el contribuyente podrá
+registrar a su consideración una de las formas de pago con las que
+se recibio el mismo.
+En este CFDI global no se pueden incluir operaciones que no hayan
+
+Las diferentes claves de forma de pago se encuentran incluidas en
+el catálogo c_FormaPago.
+Ejemplo:
+FormaPago= 02
+c_FormaPago
+
+Descripción
+
+01
+
+Efectivo
+
+02
+
+Cheque nominativo
+
+03
+
+Transferencia electrónica
+de fondos
+
+NoCertificado
+
+Es el número que identifica al certificado de sello digital del
+emisor, el cual lo incluye en el comprobante fiscal el sistema
+que utiliza el contribuyente para la emisión.
+
+Certificado
+
+Es el contenido del certificado del sello digital del emisor y lo
+integra el sistema que utiliza el contribuyente para la emisión
+del comprobante fiscal.
+
+CondicionesDeP
+ago
+
+Este campo no debe existir.
+
+Servicio de Administración Tributaria │ Av. Hidalgo, núm. 77, col. Guerrero, delegación Cuauhtémoc, Ciudad de México.,
+c. p. 06300 │ MarcaSAT: 627 22 728 desde la Ciudad de México │ documento disponible en www.sat.gob.mx
+
+6
+
+SubTotal
+
+Descuento
+
+Moneda
+
+Es la suma de los importes de los conceptos antes de
+descuentos e impuestos. No se permiten valores negativos.
+
+
+Este campo debe tener hasta la cantidad de decimales
+que soporte la moneda, ver ejemplo del campo Moneda.
+
+
+
+El importe registrado en este campo debe ser igual al
+redondeo de la suma de los importes de los conceptos
+registrados.
+
+Se puede registrar el importe total de los descuentos aplicables
+antes de impuestos. No se permiten valores negativos. Se debe
+registrar cuando existan conceptos con descuento.
+
+
+Este campo debe tener hasta la cantidad de decimales
+que soporte la moneda, ver ejemplo del campo Moneda.
+
+
+
+El valor registrado en este campo debe ser menor o igual
+que el campo Subtotal.
+
+
+
+Cuando en el campo TipoDeComprobante sea I
+(Ingreso), y algún concepto incluya un Descuento, este
+campo debe existir y debe ser igual al redondeo de la
+suma de los campos Descuento registrados en los
+conceptos; en otro caso se debe omitir este campo.
+
+Se debe registrar la clave de la moneda utilizada para expresar los
+conforme con la especificación ISO 4217.
+Las distintas claves de moneda se encuentran incluidas en el
+catálogo c_Moneda.
+Ejemplo:
+Moneda= MXN
+c_Moneda
+USD
+MXN
+
+Descripción
+Dolar
+Americano
+Peso
+Mexicano
+
+Decimales
+2
+2
+
+Porcentaje
+v ariación
+35%
+35%
+
+Servicio de Administración Tributaria │ Av. Hidalgo, núm. 77, col. Guerrero, delegación Cuauhtémoc, Ciudad de México.,
+c. p. 06300 │ MarcaSAT: 627 22 728 desde la Ciudad de México │ documento disponible en www.sat.gob.mx
+
+7
+
+TipoCambio
+
+Se puede registrar el tipo de cambio conforme a la moneda
+registrada en el comprobante.
+Este campo es requerido cuando la clave de moneda es distinta de
+para las transacciones en que intervenga ninguna moneda).
+Si el valor está fuera del porcentaje aplicable a la moneda, tomado
+del catálogo c_Moneda, el emisor debe obtener del proveedor de
+certificación de CFDI que vaya a timbrar el CFDI, de manera no
+automática, una clave de confirmación para ratificar que el valor es
+correcto e integrar dicha clave en el campo Confirmacion.
+El límite superior se obtiene multiplicando el valor publicado del tipo
+de cambio fix por la suma de uno más el porcentaje aplicable a la
+moneda tomado del catálogo c_Moneda.
+El límite inferior se obtiene multiplicando el valor publicado del tipo
+de cambio fix por la suma de uno menos el porcentaje aplicable a la
+moneda tomado del catálogo c_Moneda. Si este límite fuera
+negativo se toma cero.
+
+Total
+
+Es la suma del subtotal, menos los descuentos aplicables, más
+las contribuciones recibidas (impuestos). No se permiten
+valores negativos.
+
+
+Este campo debe tener hasta la cantidad de decimales
+que soporte la moneda, ver ejemplo del campo Moneda.
+
+
+
+Cuando el valor equivalente en MXN (Peso Mexicano)
+de este campo exceda el límite establecido, debe existir
+el campo Confirmacion.
+
+Si se hacen retenciones no se puede aplicar la facilidad de la
+regla 2.7.1.24 de la RMF vigente y debe emitirse un CFDI por
+cada operación.
+TipoDeComprob Se debe registrar la clave
+ante
+c_TipoDeComprobante.
+
+Servicio de Administración Tributaria │ Av. Hidalgo, núm. 77, col. Guerrero, delegación Cuauhtémoc, Ciudad de México.,
+c. p. 06300 │ MarcaSAT: 627 22 728 desde la Ciudad de México │ documento disponible en www.sat.gob.mx
+
+8
+
+MetodoPago
+
+Se debe registrar siempre
+exhibición),
+de
+conformidad
+c_MetodoPago.MetodoPago.
+
+con
+
+el
+
+catálogo
+
+Ejemplo:
+MetodoPago= P UE
+c_MetodoPago
+PUE
+
+LugarExpedicion
+
+Descripción
+Pago en una sola exhibición
+
+Se debe registrar el código postal del lugar de expedición del
+comprobante (domicilio de la matriz o de la sucursal), debe
+corresponder con una clave de código postal incluida en el
+catálogo.
+En el caso de que se emita un comprobante fiscal en una
+sucursal, en dicho comprobante se debe registrar el código
+postal de ésta, independientemente de que los sistemas de
+facturación de la empresa se encuentren en un domicilio
+distinto al de la sucursal.
+Al ingresar el código postal en este campo se cumple con el
+requisito de las fracciones I y III del artículo 29-A del CFF.
+Los distintos códigos postales se encuentran incluidos en el
+catálogo c_CodigoPostal.
+Ejemplo:
+LugarExpedicion= 01000
+c_CodigoPostal
+01000
+
+Confirmacion
+
+Se debe registrar la clave de confirmación única e irrepetible que
+entrega el proveedor de certificación de CFDI o el SAT a los
+emisores (usuarios) para expedir el comprobante con importes o
+tipo de cambio fuera del rango establecido o en ambos casos.
+Ejemplo:
+Confirmacion= ECV H1
+Se pueden registrar valores alfanuméricos a 5 posiciones.
+
+Servicio de Administración Tributaria │ Av. Hidalgo, núm. 77, col. Guerrero, delegación Cuauhtémoc, Ciudad de México.,
+c. p. 06300 │ MarcaSAT: 627 22 728 desde la Ciudad de México │ documento disponible en www.sat.gob.mx
+
+9
+
+La parametrización o personalización de los montos máximos para
+facturar sin requerir clave de confirmación, se hará mediante el
+servicio que al efecto publique el SAT en su Portal de Internet, al cual
+se ingresará previa autenticación, en dicho servicio aparecerá por
+defecto como monto máximo el límite definido por el SAT y ahí el
+contribuyente podrá definir el monto que estime conveniente.
+En este nodo se puede expresar la información de los
+Nodo:
+CfdiRelacionad comprobantes fiscales relacionados.
+os
+TipoRelacion
+
+Se debe registrar la clave de la relación que existe entre éste
+comprobante (factura global) que se está generando y el o los CFDI
+previos que tienen alguna relación entre si.
+La clave de Tipo de relación se encuentra incluida en el catálogo
+c_TipoRelacion publicado en el Portal del SAT.
+
+
+sustitución, el
+comprobante que se está generando (factura global) como
+sustituto
+.
+
+Ejemplo:
+TipoRelacion= 04
+c_TipoRelacion
+04
+
+Descripción
+Sustitución de los CFDI previos
+
+En este nodo se debe expresar la información de los comprobantes
+Nodo:
+CfdiRelacionad fiscales relacionados.
+o
+UUID
+
+Se debe registrar el folio fiscal (UUID) de un comprobante fiscal
+relacionado con el presente comprobante.
+Ejemplo:
+UUID= 5FB2822E-396D-4725-8521-CDC4BDD20CCF
+
+Nodo: Emisor
+
+En este nodo se debe expresar la información del contribuyente
+que emite el comprobante fiscal.
+
+Rfc
+
+Se debe registrar la Clave en el Registro Federal de
+Contribuyentes del emisor del comprobante.
+En el caso de que el emisor sea una persona física, este campo
+debe contener una longitud de 13 posiciones, tratándose de
+personas morales debe contener una longitud de 12 posiciones.
+
+Servicio de Administración Tributaria │ Av. Hidalgo, núm. 77, col. Guerrero, delegación Cuauhtémoc, Ciudad de México.,
+c. p. 06300 │ MarcaSAT: 627 22 728 desde la Ciudad de México │ documento disponible en www.sat.gob.mx
+
+10
+
+Ejemplo:
+En el caso de una persona física se debe registrar:
+Rfc=CABL840215RF4
+En el caso de una persona moral se debe registrar:
+Rfc=P AL7202161U0
+Nombre
+
+Se puede registrar el nombre, denominación o razón social del
+emisor del comprobante.
+Ejemplo:
+En el caso de una persona física se debe registrar:
+Nombre= Mar tín Alejandr o Sanz Fierr o
+En el caso de una persona moral se debe registrar:
+Nombre=La Palma SA de CV
+
+RegimenFiscal
+
+Se debe especificar la clave del régimen fiscal del contribuyente
+emisor bajo el cual se está emitiendo el comprobante.
+Las claves de los diversos regímenes se encuentran incluidas en
+el catálogo c_RegimenFiscal publicado en el Portal del SAT.
+Ejemplo: En el caso de que el emisor sea una persona moral
+inscrita en el Régimen General de Ley de Personas Morales,
+debe registrar lo siguiente:
+RegimenFiscal= 601
+Aplica para tipo persona
+c_RegimenFiscal
+
+Descripcion
+
+Física
+
+Moral
+
+601
+
+General de Ley
+Personas Morales
+
+No
+
+Si
+
+603
+
+Personas Morales
+con Fines no
+Lucrativos
+
+No
+
+Si
+
+Servicio de Administración Tributaria │ Av. Hidalgo, núm. 77, col. Guerrero, delegación Cuauhtémoc, Ciudad de México.,
+c. p. 06300 │ MarcaSAT: 627 22 728 desde la Ciudad de México │ documento disponible en www.sat.gob.mx
+
+11
+
+605
+
+Nodo:
+Receptor
+
+Sueldos y Salarios e
+Ingresos Asimilados
+a Salarios
+
+Si
+
+No
+
+En este nodo se debe expresar la información del contribuyente
+receptor del comprobante.
+
+Rfc
+
+XAXX010101000 .
+Ejemplo:
+Rfc= XAXX010101000
+
+Nombre
+
+Este campo no debe existir.
+
+ResidenciaFiscal
+
+Este campo no debe existir.
+
+NumRegIdTrib
+
+Este campo no debe existir.
+
+UsoCFDI
+
+(Por definir).
+
+Nodo:
+Conceptos
+
+En este nodo se deben expresar los conceptos descritos en el
+comprobante.
+
+Nodo:
+Concepto
+
+En este nodo se debe expresar la información detallada de cada
+uno de los comprobantes de operaciones con el publico en
+general.
+
+ClaveProdServ
+
+el
+catálogo c_Clave ProdServ publicado en el Portal del SAT.
+Ejemplo:
+ClaveProdServ= 01010101
+c_Clav eProdServ Descripcion
+
+01010101
+
+No existe en
+el catálogo
+
+Incluir IVA Incluir IEPS
+
+Complemento
+
+trasladado trasladado
+
+que debe incluir
+
+Opcional
+
+No
+
+----
+
+NoIdentificacion En este campo se debe registrar el número de folio o de
+operación de los comprobante de operación con el público en
+Servicio de Administración Tributaria │ Av. Hidalgo, núm. 77, col. Guerrero, delegación Cuauhtémoc, Ciudad de México.,
+c. p. 06300 │ MarcaSAT: 627 22 728 desde la Ciudad de México │ documento disponible en www.sat.gob.mx
+
+12
+
+general. Puede conformarse desde 1 hasta 20 caracteres
+alfanuméricos
+Ejemplo:
+NoIdentificacion= 150
+Cantidad
+Ejemplo:
+Cantidad= 1
+el catálogo c_Claveunidad
+
+ClaveUnidad
+publicado en el Portal del SAT.
+Ejemplo:
+ClaveUnidad= ACT
+
+c_Clav eUnidad
+
+ACT
+
+Nombre
+
+Actividad
+
+Unidad
+
+Este campo no debe existir.
+
+Descripcion
+
+Se debe registrar el valor
+Ejemplo:
+Descripcion=V enta
+
+ValorUnitario
+
+En este campo se debe registrar el subtotal del comprobante de
+operaciones con el público en general, el cual puede contener de cero
+hasta seis decimales.
+Si el tipo de comprobante es de
+ser mayor a cero.
+
+ngreso), este valor debe
+
+Ejemplo:
+ValorUnitario= 1230.00
+
+Servicio de Administración Tributaria │ Av. Hidalgo, núm. 77, col. Guerrero, delegación Cuauhtémoc, Ciudad de México.,
+c. p. 06300 │ MarcaSAT: 627 22 728 desde la Ciudad de México │ documento disponible en www.sat.gob.mx
+
+13
+
+Importe
+
+Debe ser equivalente al resultado de multiplicar la Cantidad por
+el ValorUnitario expresado en el concepto, el cual será
+calculado por el sistema que genera el comprobante y
+considerará los redondeos que tenga registrado este campo.
+No se permiten valores negativos.
+Ejemplo:
+Importe= 1230.00
+
+Descuento
+
+Cantidad
+
+Valor unitario
+
+Importe
+
+1
+
+1230.00
+
+1230.00
+
+Se debe registrar el importe de los descuentos aplicables a cada
+comprobante de operaciones con el publicó en general, debe
+tener hasta la cantidad de decimales que tenga registrado en
+el atributo importe del concepto y debe ser menor o igual al
+campo Importe. No se permiten valores negativos.
+Ejemplo:
+Descuento= 864.10
+
+Nodo:
+Impuestos
+
+Cantidad
+
+Valor unitario
+
+Importe
+
+Descuento
+
+3.141649
+
+1230.00
+
+3864.24
+
+864.10
+
+En este nodo se pueden expresar los impuestos aplicables a
+cada comprobante de operaciones con el público en general.
+Cuando un concepto no registra la información de algún
+impuesto, implica que no es objeto del mismo.
+Si se registra información en este nodo, debe existir la seccion:
+traslados.
+
+Nodo:Traslado En este nodo se pueden expresarar los impuestos trasladados
+aplicables a cada comprobante de operaciones con el público
+s
+en general .
+Nodo:Traslado En este nodo se debe expresar la información detallada de un
+traslado de impuestos aplicable a cada comprobante de
+operaciones con el público en general.
+
+Servicio de Administración Tributaria │ Av. Hidalgo, núm. 77, col. Guerrero, delegación Cuauhtémoc, Ciudad de México.,
+c. p. 06300 │ MarcaSAT: 627 22 728 desde la Ciudad de México │ documento disponible en www.sat.gob.mx
+
+14
+
+En el caso de que un concepto contenga impuesto trasladado
+por Tasa o Cuota, se debe expresar en diferentes apartados.
+Base
+
+Se debe registrar el valor para el cálculo del impuesto que se
+traslada, puede contener de cero hasta seis decimales.
+
+
+Impuesto
+
+El valor de este campo debe ser mayor que cero.
+
+Se debe registrar la clave del tipo de impuesto trasladado
+aplicable a cada comprobante de operaciones con el público en
+general, las cuales se encuentran incluidas en el catálogo
+c_Impuesto publicado en el Portal del SAT.
+Ejemplo:
+Impuesto= 002
+
+TipoFactor
+
+c_Impuesto
+
+Descripción
+
+002
+
+IVA
+
+003
+
+IEPS
+
+Se debe registrar el tipo de factor que se aplica a la base del
+impuesto, el cual se encuentra incluido en el catálogo
+c_TipoFactor publicado en el Portal del SAT.
+Ejemplo:
+TipoFactor= Tasa
+c_TipoFactor
+Tasa
+Cuota
+Exento
+
+TasaOCuota
+
+Se puede registrar el valor de la tasa o cuota del impuesto que
+se traslada para cada comprobante de operaciones con el
+público en general. Es requerido cuando el campo TipoFactor
+corresponda a Tasa o Cuota.
+Los distintos valores para las tasas o cuotas se encuentran
+incluidos en el catálogo c_TasaOCuota publicado en el Portal
+del SAT.
+
+Servicio de Administración Tributaria │ Av. Hidalgo, núm. 77, col. Guerrero, delegación Cuauhtémoc, Ciudad de México.,
+c. p. 06300 │ MarcaSAT: 627 22 728 desde la Ciudad de México │ documento disponible en www.sat.gob.mx
+
+15
+
+
+
+Si el valor registrado es fijo debe corresponder al tipo de
+impuesto y al tipo de factor conforme al catálogo
+c_TasaOCuota.
+
+
+
+Si el valor registrado es variable, debe corresponder al rango
+entre el valor mínimo y el valor máximo señalado en el
+catálogo.
+
+Ejemplo:
+TasaOCuota= 0.160000
+c_TasaOCuota
+
+Rango o
+Fijo
+
+Importe
+
+Impuest
+o
+
+Factor
+
+Valor mínimo
+
+Valor máximo
+
+Fijo
+
+No
+
+0.000000
+
+IVA
+
+Tasa
+
+Fijo
+
+No
+
+0.160000
+
+IVA
+
+Tasa
+
+Se puede registrar el importe del impuesto trasladado que
+aplica a cada concepto. No se permiten valores negativos. Este
+campo es requerido cuando en el campo TipoFactor se haya
+registrado como Tasa o Cuota.
+El valor de este campo será calculado por el sistema que genera
+el comprobante y considerará los redondeos que tenga
+registrado este campo, para mayor referencia puede consultar
+la documentación técnica publicada en el Portal del SAT.
+
+Nodo:
+Retenciones
+
+Este nodo no debe existir.
+
+Este nodo no debe existir
+Nodo:
+Infor macionAd
+uaner a
+Nodo:
+CuentaPr edial
+
+Este nodo no debe existir.
+
+Nodo:
+Complemento
+Concepto
+
+Este nodo no debe existir.
+
+Nodo: Par te
+
+Este nodo no debe existir.
+
+Servicio de Administración Tributaria │ Av. Hidalgo, núm. 77, col. Guerrero, delegación Cuauhtémoc, Ciudad de México.,
+c. p. 06300 │ MarcaSAT: 627 22 728 desde la Ciudad de México │ documento disponible en www.sat.gob.mx
+
+16
+
+Nodo:
+Impuestos
+
+En este nodo se debe expresar el resumen de los impuestos
+aplicables.
+
+TotalImpuestos
+Retenidos
+
+Este campo no debe existir.
+
+TotalImpuestos
+Trasladados
+
+Es el total de los impuestos trasladados que se desprenden de
+los conceptos contenidos en el comprobante fiscal, el cual debe
+ser igual a la suma de los importes registrados en la sección
+Traslados, no se permiten valores negativos y es requerido
+cuando en los conceptos se registren impuestos trasladados.
+
+
+Nodo:
+Retenciones
+
+Este campo debe tener hasta la cantidad de decimales
+que soporte la moneda.
+
+Este nodo no debe existir.
+
+Nodo:Traslado En este nodo se pueden expresar los impuestos trasladados
+aplicables y es requerido cuando en los conceptos se registre
+s
+un impuesto trasladado.
+Nodo: Traslado En este nodo se debe expresar la información detallada de un
+traslado de impuesto específico.
+Debe haber sólo un registro con la misma combinación de
+impuesto, factor y tasa por cada traslado.
+Impuesto
+
+TipoFactor
+
+Se debe registrar la clave del tipo de impuesto trasladado,
+mismas que se encuentran incluidas en el catálogo c_Impuesto
+publicado en el Portal del SAT.
+Ejemplo:
+Impuesto= 002
+Se debe registrar el tipo factor que se aplica a la base del
+impuesto, mismos que se encuentran incluidos en el catálogo
+c_TipoFactor publicado en el Portal del SAT.
+Ejemplo:
+TipoFactor= Tasa
+
+Servicio de Administración Tributaria │ Av. Hidalgo, núm. 77, col. Guerrero, delegación Cuauhtémoc, Ciudad de México.,
+c. p. 06300 │ MarcaSAT: 627 22 728 desde la Ciudad de México │ documento disponible en www.sat.gob.mx
+
+17
+
+TasaOCuota
+
+Se debe registrar el valor de la tasa o cuota del impuesto que
+se traslada por cada comprobante de operaciones con el
+público en general registrado en el comprobante, mismo que se
+encuentra incluido en el catálogo c_TasaOCuota publicado en
+el Portal del SAT.
+El valor de la tasa o cuota que se registre debe corresponder a
+un registro donde la columna impuesto corresponda con el
+campo Impuesto y la columna factor corresponda con el campo
+TipoFactor.
+Ejemplo:
+TasaOCuota= 0.160000
+
+Importe
+
+Se debe registrar el monto del impuesto trasladado, agrupado
+por Impuesto, TipoFactor y TasaOCuota, el cual debe tener
+hasta la cantidad de decimales que soporte la moneda, no se
+permiten valores negativos y debe ser igual al redondeo de la
+suma de los importes de los impuestos trasladados registrados
+en los conceptos donde el impuesto del concepto sea igual al
+campo impuesto de este apartado y la TasaOCuota del
+concepto sea igual al campo TasaOCuota de este apartado.
+Ejemplo:
+Importe= 2400.00
+
+Nodo:
+Complemento
+
+En este nodo el Proveedor de Certificación de CFDI debe incluir
+el complemento Timbre Fiscal Digital de manera obligatoria y
+en su caso, el Portal del SAT debe incluir el complemento CFDI
+Registro Fiscal cuando el CFDI global se emita a través de Mis
+cuentas.
+
+Nodo:
+Addenda
+
+En este nodo se puede expresar las extensiones al presente
+formato que sean de utilidad al contribuyente. Para las reglas de
+uso del mismo, referirse a la documentación técnica.
+
+Servicio de Administración Tributaria │ Av. Hidalgo, núm. 77, col. Guerrero, delegación Cuauhtémoc, Ciudad de México.,
+c. p. 06300 │ MarcaSAT: 627 22 728 desde la Ciudad de México │ documento disponible en www.sat.gob.mx
+
+18
+
+Glosario
+Nodo, elemento, apar tado o sección: Conjunto de datos.
+Atr ibuto o campo: Es un dato.
+
+Servicio de Administración Tributaria │ Av. Hidalgo, núm. 77, col. Guerrero, delegación Cuauhtémoc, Ciudad de México.,
+c. p. 06300 │ MarcaSAT: 627 22 728 desde la Ciudad de México │ documento disponible en www.sat.gob.mx
+
+19
+
+Apéndice 1 Notas Generales
+Nota 1: El documento incluye ejemplos de carácter didáctico y en estos se hace uso
+de información ficticia o no necesariamente real.
+
+Servicio de Administración Tributaria │ Av. Hidalgo, núm. 77, col. Guerrero, delegación Cuauhtémoc, Ciudad de México.,
+c. p. 06300 │ MarcaSAT: 627 22 728 desde la Ciudad de México │ documento disponible en www.sat.gob.mx
+
+20
+
+Servicio de Administración Tributaria │ Av. Hidalgo, núm. 77, col. Guerrero, delegación Cuauhtémoc, Ciudad de México.,
+c. p. 06300 │ MarcaSAT: 627 22 728 desde la Ciudad de México │ documento disponible en www.sat.gob.mx
+
+21
+
+

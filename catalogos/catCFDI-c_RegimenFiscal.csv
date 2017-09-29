@@ -1,0 +1,27 @@
+Catálogo de régimen fiscal                                                                                                                                 
+         Versión                                        Revisión                                                                                           
+           1.0                                             A                                                                                               
+                                                                                                                                                           
+                                                                                               Aplica para tipo persona                                    
+     c_RegimenFiscal                                  Descripción                                       Física              Moral     Fecha de inicio de viFecha de fin de
+           601            General de Ley Personas Morales                                                 No                  Sí           11/12/2016      
+           603            Personas Morales con Fines no Lucrativos                                        No                  Sí           11/12/2016      
+           605            Sueldos y Salarios e Ingresos Asimilados a Salarios                             Sí                  No           11/12/2016      
+           606            Arrendamiento                                                                   Sí                  No           11/12/2016      
+           608            Demás ingresos                                                                  Sí                  No           11/12/2016      
+           609            Consolidación                                                                   No                  Sí           11/12/2016      
+           610            Residentes en el Extranjero sin Establecimiento Permanente en México            Sí                  Sí           11/12/2016      
+           611            Ingresos por Dividendos (socios y accionistas)                                  Sí                  No           11/12/2016      
+           612            Personas Físicas con Actividades Empresariales y Profesionales                  Sí                  No           11/12/2016      
+           614            Ingresos por intereses                                                          Sí                  No           11/12/2016      
+           616            Sin obligaciones fiscales                                                       Sí                  No           11/12/2016      
+           620            Sociedades Cooperativas de Producción que optan por diferir sus ingr            No                  Sí           11/12/2016      
+           621            Incorporación Fiscal                                                            Sí                  No           11/12/2016      
+           622            Actividades Agrícolas, Ganaderas, Silvícolas y Pesqueras                        Sí                  Sí           11/12/2016      
+           623            Opcional para Grupos de Sociedades                                              No                  Sí           11/12/2016      
+           624            Coordinados                                                                     No                  Sí           11/12/2016      
+           628            Hidrocarburos                                                                   No                  Sí            1/1/2020       
+           607            Régimen de Enajenación o Adquisición de Bienes                                  No                  Sí           11/12/2016      
+           629            De los Regímenes Fiscales Preferentes y de las Empresas Multinaciona            Sí                  No            1/1/2020       
+           630            Enajenación de acciones en bolsa de valores                                     Sí                  No            1/1/2020       
+           615            Régimen de los ingresos por obtención de premios                                Sí                  No           11/12/2016      

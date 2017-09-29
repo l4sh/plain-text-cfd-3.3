@@ -1,0 +1,382 @@
+P reguntas y respuestas sobre el
+Anexo 20 v ersión 3.3
+
+Servicio de Administración Tributaria │ Av. Hidalgo, núm. 77, col. Guerrero, delegación Cuauhtémoc, Ciudad de
+México, c. p. 06300 │ Tel. MarcaSAT: 01 55 627 22 728│ documento disponible en www.sat.gob.mx
+
+1
+
+1. ¿Se deber á cancelar el CFDI cuando el receptor dará un uso diferente al
+señalado en el campo UsoCFDI?
+No, en caso de que se registre una clave distinta al uso del CFDI que le dará el
+receptor del comprobante, no será motivo de cancelación o sustitución, y no
+afectará para su deducción o acreditamiento de impuestos.
+Fundamento Legal: Anexo 20 Guía de llenado de los comprobantes fiscales digitales por
+internet versión 3.3, publicada en el Portal del SAT.
+
+2. ¿En el CFDI ver sión 3.3 se podrán registrar cantidades en negativo?
+No, en la versión 3.3 del CFDI no aplica el uso de números negativos para ningún
+dato.
+Fundamento Legal: Anexo 20 versión 3.3 vigente.
+
+3. ¿Cómo se deben r eflejar los impuestos retenidos y tr asladados en el
+CFDI ver sión 3.3?
+En la versión 3.3 del CFDI se expresarán los impuestos trasladados y retenidos
+aplicables por cada concepto registrado en el comprobante, debiéndose detallar
+lo siguiente:
+
+
+
+
+
+
+Base para el cálculo del impuesto.
+Impuesto (Tipo de impuesto ISR, IVA, IESPS).
+Tipo factor (Tasa, cuota o exento).
+Tasa o cuota (Valor de la tasa o cuota que corresponda al impuesto).
+Importe (Monto del impuesto).
+
+Se debe incluir a nivel comprobante el resumen de los impuestos trasladados por
+Tipo de impuesto, Tipo factor, Tasa o cuota e Importe.
+Se debe incluir a nivel comprobante el resumen de los impuestos retenidos por
+Impuesto e Importe.
+Asimismo, se debe registrar en su caso, el Total de los Impuestos Trasladados
+y/o Retenidos.
+Fundamento Legal: Artículo 29-A, fraccion VII, inciso a), primer y segundo parráfo del
+Código Fiscal de la Federacion, Anexo 20 versión 3.3 vigente y Anexo 20 Guía de llenado
+Servicio de Administración Tributaria │ Av. Hidalgo, núm. 77, col. Guerrero, delegación Cuauhtémoc, Ciudad de
+México, c. p. 06300 │ Tel. MarcaSAT: 01 55 627 22 728│ documento disponible en www.sat.gob.mx
+
+2
+
+de los comprobantes fiscales digitales por internet versión 3.3, publicada en el Portal del
+SAT.
+
+4. ¿En qué caso los campos condicionales del CFDI son de uso obligatorio?
+Los campos condicionales deberán informarse serán obligatorios- siempre que
+se registre información en algún otro campo que como resultado de las reglas de
+validación contenidas en el estándar técnico y precisadas en la Guía de llenado,
+obligue en consecuencia a que se registre información en dichos campos
+condicionales.
+Fundamento Legal: Anexo 20 versión 3.3 vigente y Anexo 20 Guía de llenado de los
+comprobantes fiscales digitales por internet versión 3.3, publicada en el Portal del SAT.
+
+5. ¿Cómo se deben clasificar los productos y ser vicios de acuerdo con el
+catálogo publicado por el SAT (c_ClaveP rodSev )?
+La clasificación del catálogo se integra de acuerdo con las características
+comunes de los productos y servicios, y si están interrelacionados, la cual se
+estructura de la siguiente manera:
+
+
+
+
+
+Segmento: Se identifica por el primero y segundo dígito de la clave.
+Familia: Se identifica por el tercero y cuarto dígito de la clave.
+Clase: Se identifica por el quinto y sexto dígito de la clave.
+Producto: Se identifica por el séptimo y octavo dígito de la clave.
+
+Un ejemplo es la clave 10101502:
+Segmento
+
+Familia
+
+Clase
+
+Mercancía o
+Producto
+
+Descripción
+
+Dígitos verificadores
+para fines de análisis
+
+Dígitos agrupadores
+para categorías de
+productos
+relacionados entre sí
+
+Dígitos para
+identificar a los
+productos que
+comparten
+características
+comunes
+
+Grupo de productos
+o servicios
+sustitutivos
+
+Definición del
+producto o servicio
+
+10
+
+10
+
+15
+
+02
+
+P er r os
+
+Se debe registrar una clave que permita clasificar los conceptos del
+comprobante, los cuales se deberán asociar a nivel Clase, es decir, cuando los
+nivel Producto, siempre y cuando la clave esté registrada en el catálogo.
+Servicio de Administración Tributaria │ Av. Hidalgo, núm. 77, col. Guerrero, delegación Cuauhtémoc, Ciudad de
+México, c. p. 06300 │ Tel. MarcaSAT: 01 55 627 22 728│ documento disponible en www.sat.gob.mx
+
+3
+
+Fundamento Legal: Anexo 20 versión 3.3 vigente y Anexo 20 Guía de llenado de los
+comprobantes fiscales digitales por internet versión 3.3, publicada en el Portal del SAT.
+
+6. ¿En los CFDI por anticipos se debe desglosar el IV A?
+Sí, se debe desglosar el IVA en las facturas que amparen anticipos cuando el bien
+o producto a adquirir grave IVA.
+Fundamento Legal: Artículo 1 y 1-B de la LIVA y Anexo 20 Guía de llenado de los
+comprobantes fiscales digitales por internet versión 3.3, publicada en el Portal del SAT.
+
+7. El cliente se equivocó y pagó de más o indebidamente , ¿Se tiene que
+emitir una factur a?
+Si el cliente pagó de más o indebidamente y la cantidad que está en demasía no
+se va a considerar como un anticipo, se deberá devolver al cliente el importe
+pagado de más.
+En el caso, de que la cantidad pagada de más o indebidamente se tome como un
+anticipo, se deberá emitir el CFDI de conformidad con lo establecido en el
+Apéndice 6 Procedimiento para la emisión de los CFDI en el caso de anticipos
+recibidos.
+Fundamento Legal: Artículo 29 del Código Fiscal de la Federación y Anexo 20 Guía de
+llenado de los comprobantes fiscales digitales por internet versión 3.3, publicada en el
+Portal del SAT.
+
+8. ¿Cómo se deben incluir los impuestos locales en el CFDI ver sión 3.3?
+Los impuestos locales se deben registrar en el
+Locales publicado en el Portal del SAT.
+
+Complemento Impuestos
+
+Fundamento Legal: Regla 2.7.1.8. de la Resolución Miscelánea Fiscal vigente y Apéndice
+1 Notas Generales del Anexo 20 Guía de llenado de los comprobantes fiscales digitales
+por internet versión 3.3, publicada en el Portal del SAT.
+
+9. ¿El contr ibuyente r eceptor del CFDI tiene la obligación de validar a
+detalle las claves de pr oducto/ser vicio de todas las facturas que r eciba?
+
+Servicio de Administración Tributaria │ Av. Hidalgo, núm. 77, col. Guerrero, delegación Cuauhtémoc, Ciudad de
+México, c. p. 06300 │ Tel. MarcaSAT: 01 55 627 22 728│ documento disponible en www.sat.gob.mx
+
+4
+
+No existe una obligación de revisarlas a detalle; la recomendación es que se
+verifiquen que los datos asentados sean correctos y coincidan al menos en
+términos generales con el bien o servicio de que se trate y la descripción que del
+mismo se asiente en el propio comprobante.
+Fundamento Legal: Anexo 20 versión 3.3 vigente y Anexo 20 Guía de llenado de los
+comprobantes fiscales digitales por internet versión 3.3, publicada en el Portal del SAT.
+
+10. Si mis clientes no han actualizado su domicilio a Ciudad de México ¿Yo
+debó cambiar lo a efecto de registrar el mismo en el CFDI?
+Para la versión 3.3 del CFDI se eliminan los campos del domicilio del emisor y
+receptor.
+En el lugar de expedición en la versión 3.3 del CFDI, se debe registrar el código
+postal del lugar de expedición del comprobante (de la matriz o de la sucursal). El
+código postal debe corresponder con una clave incluida en el catálogo
+c_CodigoPostal publicado en el Portal del SAT.
+Fundamento Legal: Artículo 29-A del Código Fiscal de la Federación y Anexo 20 Guía de
+llenado de los comprobantes fiscales digitales por internet versión 3.3, publicada en el
+Portal del SAT.
+
+11. ¿Existen validadores de CFDI ver sión 3.3?
+El validador de forma y sintaxis de los CFDI que estaba disponible en el Portal del
+SAT, dejó de dar servicio en mayo del 2017, toda vez que se considera que un
+CFDI certificado cumple con las especificaciones técnicas de estructura
+establecidas en el Anexo 20.
+Si existe la necesidad de realizar las validaciones de forma y sintaxis a un
+comprobante, se deberá obtener la herramienta con algún proveedor de
+software.
+12. ¿Cuál es el método de pago que se debe registrar en el CFDI por el valor
+total de la operación en el caso de pago en par cialidades o pago difer ido?
+Se debe registrar la clave PPD (Pago en parcialidades o diferido) del catálogo
+c_MetodoPago publicado en el Portal del SAT.
+Fundamento Legal: Anexo 20 Guía de llenado de los comprobantes fiscales digitales por
+internet versión 3.3, publicada en el Portal del SAT.
+Servicio de Administración Tributaria │ Av. Hidalgo, núm. 77, col. Guerrero, delegación Cuauhtémoc, Ciudad de
+México, c. p. 06300 │ Tel. MarcaSAT: 01 55 627 22 728│ documento disponible en www.sat.gob.mx
+
+5
+
+13. ¿Qué sucede si clasifico de manera err ónea en el CFDI la clave de los
+pr oductos o ser vicios?
+En caso de que se asigne "erróneamente" la clave del producto o servicio se debe
+reexpedir la factura para corregirlo.
+Para clasificar los productos y servicios que se facturan, debe consultar el
+Apéndice 3 del Anexo 20 Guía de llenado de los comprobantes fiscales digitales
+por Internet versión 3.3, publicada en el Portal del SAT, y puede utilizarse la
+herramienta de clasificación publicada en el mismo Portal.
+Fundamento Legal: Apéndice 3 Clasificación de Productos y Servicios del Anexo 20 Guía
+de llenado de los comprobantes fiscales digitales por internet versión 3.3, publicada en
+el Portal del SAT.
+
+14. ¿Cómo se deben registrar en los CFDI los conceptos exentos de
+impuestos?
+En el Nodo:Traslados se debe expresar la información detallada del impuesto, de
+la siguiente forma:
+
+
+
+
+
+Base para el cálculo del impuesto.
+Impuesto (Tipo de impuesto ISR, IVA, IESPS).
+Tipo factor (exento).
+No se deben registrar los atributos TasaOCuota e Importe.
+
+Fundamento Legal: Anexo 20 versión 3.3 vigente.
+
+15. En el caso de que un CFDI haya sido pagado con diver sas for mas de pago
+¿Qué forma de pago debe registrar se en el compr obante?
+En el caso de aplicar más de una forma de pago en una transacción, los
+contribuyentes deben incluir en este campo, la clave de forma de pago con la que
+se liquida la mayor cantidad del pago. En caso de que se reciban distintas formas
+de pago con el mismo importe, el contribuyente debe registrar a su
+consideración, una de las formas de pago con las que se recibió el pago de la
+contraprestación.
+Fundamento Legal: Anexo 20 Guía de llenado de los comprobantes fiscales digitales por
+internet versión 3.3, publicada en el Portal del SAT.
+
+Servicio de Administración Tributaria │ Av. Hidalgo, núm. 77, col. Guerrero, delegación Cuauhtémoc, Ciudad de
+México, c. p. 06300 │ Tel. MarcaSAT: 01 55 627 22 728│ documento disponible en www.sat.gob.mx
+
+6
+
+16. Si me realizan un depósito para gar antizar el pago de las rentas en el
+caso de un contr ato de ar rendamiento inmobiliar io, ¿Se debe facturar
+como un anticipo dicho depósito?
+Si la operación de que se trata se refiere a la entrega de una cantidad por
+concepto de garantía o depósito, es decir, la entrega de una cantidad que
+garantiza la realización o cumplimiento de alguna condición, como sucede en el
+caso del depósito que en ocasiones se realiza por el arrendatario al arrendador
+para garantizar del pago de las rentas en el caso de un contrato de
+arrendamiento inmobiliario, no estamos ante el caso de un anticipo.
+Fundamento Legal: Anexo 20 Guía de llenado de los comprobantes fiscales digitales por
+internet versión 3.3, publicada en el Portal del SAT.
+
+17. ¿En qué casos se deberá emitir un CFDI por un anticipo?
+Estaremos ante el caso de una operación en dónde existe el pago de un anticipo,
+cuando:
+ No se conoce o no se ha determinado el bien o servicio que se va a adquirir
+o el precio del mismo.
+ No se conoce o no se han determinado ni el bien o servicio que se va a
+adquirir ni el precio del mismo.
+Fundamento Legal: Anexo 20 Guía de llenado de los comprobantes fiscales digitales por
+internet versión 3.3, publicada en el Portal del SAT.
+
+18. Si tengo var ias sucur sales, per o mis sistemas de facturaci ón se
+encuentr an en la matr iz ¿Qué código postal debo r egistr ar en el campo
+lugar de expedición en el CFDI?
+En el caso de que se emita un comprobante fiscal en una sucursal, en dicho
+comprobante se debe registrar el código postal de ésta, independientemente de
+que los sistemas de facturación de la empresa se encuentren en un domicilio
+distinto al de la sucursal.
+Fundamento Legal: Artículo 29-A, fracciones I y III del Código Fiscal de la Federación,
+Anexo 20 Guía de llenado de los comprobantes fiscales digitales por internet versión
+3.3, publicada en el Portal del SAT.
+
+19. ¿En qué apar tado del CFDI se pueden expr esar las penalizaciones o
+incumplimientos en el caso de contratos de obras públicas?
+
+Servicio de Administración Tributaria │ Av. Hidalgo, núm. 77, col. Guerrero, delegación Cuauhtémoc, Ciudad de
+México, c. p. 06300 │ Tel. MarcaSAT: 01 55 627 22 728│ documento disponible en www.sat.gob.mx
+
+7
+
+Fundamento Legal: Anexo 20 Guía de llenado de los comprobantes fiscales digitales por
+internet versión 3.3, publicada en el Portal del SAT.
+
+20. ¿Qué clave de unidad de medida se debe utilizar para factur ar ser vicios?
+La clave de unidad dependerá del tipo de servicio y del giro del proveedor. De
+conformidad con el catálogo c_ClaveUnidad publicado en el Portal del SAT.
+Por ejemplo,
+ Un servicio de transporte terrestre puede estar clasificado por
+distancia (KMT), por peso transportado (KGM), por
+pasajero/asiento (IE persona), o por viaje (E54).
+ Un servicio de hospedaje puede estar medido por habitaciones
+(ROM), tiempo transcurrido (DAY), personas (IE).
+ Los servicios administrativos y profesionales se pueden dar por
+tiempo (HUR hora, DAY, etc.), por actividades (ACT), por grupos
+atendidos (10), por tiempo-hombre (3C mes hombre).
+Fundamento Legal: Catálogos del CFDI versión 3.3, publicado en el Portal del SAT.
+
+21. Si a mi cliente le otorgo un descuento sobre el total de una factur a ¿Qué
+tipo de CFDI debo emitir ?
+Se debe de emitir un CFDI de egresos.
+
+Fundamento Legal: Artículo 29, penúltimo párrafo del Código Fiscal de la Federación.
+
+22. En la ver sión 3.3 de la factura ¿Cómo se deberán generar las facturas y
+estados de cuenta que solo incluyan conceptos con valor 0?
+En la versión 3.3 no se permite incluir conceptos con valor 0, derivado de que si
+no existen ingresos que facturar no se tiene la obligación de expedir el
+comprobante fiscal correspondiente.
+En este sentido, con la entrada en vigor de la nueva versión 3.3, si no existen
+conceptos que facturar, como por ejemplo al no haber comisiones e intereses en
+los estados de cuenta, no se deberá expedir un comprobante fiscal digital por
+internet.
+
+Servicio de Administración Tributaria │ Av. Hidalgo, núm. 77, col. Guerrero, delegación Cuauhtémoc, Ciudad de
+México, c. p. 06300 │ Tel. MarcaSAT: 01 55 627 22 728│ documento disponible en www.sat.gob.mx
+
+8
+
+Fundamento Legal: Artículo 29 del Código Fiscal de la Federación, Anexo 20 versión 3.3,
+vigente.
+
+23. ¿Qué tipo de cambio podrán utilizar los integr antes del sistema
+financiero en la emisión del CFDI?
+Podrán utilizar en tipo de cambio FIX conforme a la tabla de Equivalencias
+publicada por BANXICO del último día del mes o del día del corte del CFD-Estado
+de cuenta.
+24. ¿Cuál es la clave de forma de pago que deben utiliza r los integrantes del
+sistema financiero para la emisión de los CFDI?
+
+contenida
+
+en
+
+el
+
+catálogo
+
+c_FormaPago
+
+del
+
+Anexo
+
+20.
+
+Fundamento legal: Anexo 20 versión 3.3 vigente.
+
+25. En el c
+r egistr ar los integr antes del sistema financiero?
+Deben registrar el código postal del domicilio fiscal de la institución financiera.
+Fundamento Legal: Artículo 29-A, fracciones I y III del Código Fiscal de la Federación y
+Anexo 20 Guía de llenado de los comprobantes fiscales digitales por Internet versión
+3.3, publicada en el Portal del SAT.
+
+26. ¿Cómo deben emitir las instituciones del sistema financier o el CFDI a sus
+clientes, en los casos en donde no existe un ingreso para dicha
+institución (no hay intereses, comisiones, cargos por anualidad, etc.)?
+Dado que no hay un ingreso para la institución financiera y por ello no hay nada
+que se deba facturar al cliente, la institución puede emitir el estado de cuenta
+sin generarlo como CFDI, o generarlo como tal, pero sin enviarlo para su
+certificación a un proveedor de certificación de CFDI. Es decir, sólo genera un
+estado de cuenta no un CFDI.
+
+Servicio de Administración Tributaria │ Av. Hidalgo, núm. 77, col. Guerrero, delegación Cuauhtémoc, Ciudad de
+México, c. p. 06300 │ Tel. MarcaSAT: 01 55 627 22 728│ documento disponible en www.sat.gob.mx
+
+9
+
+

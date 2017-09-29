@@ -1,0 +1,8 @@
+Catálogo de impuestos.                                                                         
+ Fecha inicio de vigencia   Fecha fin de vigencia    Versión   Revisión                        
+         1/1/2017                                      1.0         0                           
+                                                                                               
+        c_Impuesto               Descripción        Retención  Traslado     Local o federal    Entidad en la que
+           001            ISR                          Si         No            Federal        
+           002            IVA                          Si         Si            Federal        
+           003            IEPS                         Si         Si            Federal        
